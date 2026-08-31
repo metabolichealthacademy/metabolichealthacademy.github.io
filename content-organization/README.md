@@ -154,19 +154,17 @@ Every article should meet these standards:
 - Clear navigation structure
 - High contrast text
 
-## Getting Content from the v3 Archive
+## v3 Archive Inspection Record
 
-The `metabolic-health-academy-v3-transformed.zip` file contains your previous content.
+The former public archive `metabolic-health-academy-v3-transformed.zip` was
+inspected during Phase 1 and removed from the publishing branch. Git history
+retains the original binary if it is needed later.
 
-**Steps:**
-1. Extract the archive to review contents
-2. Use `MIGRATION_GUIDE.md` to categorize and organize
-3. Convert articles to use the new template
-4. Optimize images and prepare for web
-5. Test all links and embeds
-6. Publish to appropriate directories
-
-See `MIGRATION_GUIDE.md` for detailed instructions.
+- SHA-256: `456c6c5e060c68a6c6963e54b4b0ee6bcc8ccd8e68d11ee252dd63bb9c69b7cd`
+- Files inspected: 34
+- Contents: HTML pages, CSS, JavaScript, XML/text publishing files, and three PNG images
+- Safety check: no absolute paths or parent-directory traversal entries were present
+- Publication decision: do not expose the development archive through GitHub Pages
 
 ## Publishing Workflow
 
