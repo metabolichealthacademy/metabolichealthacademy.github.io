@@ -1,0 +1,31 @@
+name: Validate static site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - repair/phase1-fixes
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate HTML structure and local links
+        run: node scripts/validate-site.mjs
+      - name: Serve pages and verify HTTP responses
+        run: |
+          python3 -m http.server 8080 >/tmp/mha-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in {1..10}; do
+            curl --silent --fail http://127.0.0.1:8080/ >/dev/null && break
+            sleep 1
+          done
+          for page in index.html about.html conditions.html blog.html resources.html contact.html privacy.html terms.html disclaimer.html ai-disclaimer.html; do
+            curl --silent --show-error --fail "http://127.0.0.1:8080/$page" >/dev/null
+          done
