@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://themetabolichealthacademy.com/sitemap.xml
