@@ -4,10 +4,9 @@ Evidence-based metabolic health education hub providing comprehensive resources 
 
 ## 📚 About
 
-Metabolic Health Academy is an educational platform dedicated to sharing evidence-based information about metabolic health, including topics on nutrition, exercise, sleep, stress management, and disease prevention.
+Metabolic Health Academy is an educational platform dedicated to sharing evidence-based information about metabolic health & the different disease processes associated with it. Also topics on nutrition, exercise, sleep, stress management, and disease prevention.
 
 ## 🌐 Website Structure
-
 - **Home** (`index.html`) - Welcome page and main entry point
 - **About** (`about.html`) - Information about the academy and mission
 - **Resources** (`resources.html`) - Educational materials and references
