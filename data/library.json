@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-04",
+  "resources": [
+    {
+      "id": "mha-001",
+      "title": "Evidence Standards",
+      "summary": "How MHA selects sources, describes evidence strength, handles uncertainty, and cites material health claims.",
+      "topic": "Evidence literacy",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "available",
+      "href": "evidence-policy.html",
+      "published": "2026-09-04",
+      "reviewed": "2026-09-04",
+      "keywords": [
+        "sources",
+        "research",
+        "citations",
+        "quality"
+      ]
+    },
+    {
+      "id": "mha-002",
+      "title": "AI Use and Transparency Policy",
+      "summary": "How MHA uses Dustin Beck and other AI tools while preserving clear identity, evidence, privacy, and safety boundaries.",
+      "topic": "Evidence literacy",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "available",
+      "href": "ai-policy.html",
+      "published": "2026-09-04",
+      "reviewed": "2026-09-04",
+      "keywords": [
+        "Dustin Beck",
+        "AI presenter",
+        "transparency"
+      ]
+    },
+    {
+      "id": "mha-003",
+      "title": "Medical Disclaimer",
+      "summary": "Important educational, clinical, and emergency-use limitations for all MHA materials.",
+      "topic": "Using MHA",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "available",
+      "href": "disclaimer.html",
+      "published": "2026-09-04",
+      "reviewed": "2026-09-04",
+      "keywords": [
+        "medical advice",
+        "safety",
+        "emergency"
+      ]
+    },
+    {
+      "id": "mha-101",
+      "title": "What Is Metabolic Health?",
+      "summary": "A plain-language introduction to metabolic health, major markers, and why the concept matters.",
+      "topic": "Metabolic health",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "start here",
+        "markers",
+        "metabolic syndrome"
+      ]
+    },
+    {
+      "id": "mha-102",
+      "title": "What Is Metabolic Health? — Printable Guide",
+      "summary": "A concise, printable patient handout summarizing foundational metabolic health concepts.",
+      "topic": "Metabolic health",
+      "audiences": [
+        "Public"
+      ],
+      "type": "PDF",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "handout",
+        "download",
+        "printable"
+      ]
+    },
+    {
+      "id": "mha-103",
+      "title": "Metabolic Health Evidence Brief",
+      "summary": "An advanced overview of definitions, evidence limitations, and implications for education and clinical discussion.",
+      "topic": "Metabolic health",
+      "audiences": [
+        "Clinician",
+        "Student"
+      ],
+      "type": "Evidence Brief",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "advanced",
+        "definitions",
+        "evidence"
+      ]
+    },
+    {
+      "id": "mha-111",
+      "title": "Understanding Insulin Resistance",
+      "summary": "How insulin resistance develops, what it does and does not mean, and how clinicians assess related risk.",
+      "topic": "Insulin resistance",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "insulin",
+        "glucose",
+        "risk"
+      ]
+    },
+    {
+      "id": "mha-112",
+      "title": "Insulin Resistance Explained",
+      "summary": "A 6–10 minute educational video presented by Dustin Beck with clear AI-presenter disclosure.",
+      "topic": "Insulin resistance",
+      "audiences": [
+        "Public"
+      ],
+      "type": "Video",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "Dustin Beck",
+        "video",
+        "basics"
+      ]
+    },
+    {
+      "id": "mha-121",
+      "title": "Prediabetes: What the Diagnosis Means",
+      "summary": "A balanced introduction to diagnostic ranges, risk, uncertainty, and evidence-informed next conversations.",
+      "topic": "Prediabetes",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "A1c",
+        "glucose",
+        "screening"
+      ]
+    },
+    {
+      "id": "mha-122",
+      "title": "Prediabetes Questions for Your Visit",
+      "summary": "A printable question guide for discussing results, risk factors, and follow-up with a qualified clinician.",
+      "topic": "Prediabetes",
+      "audiences": [
+        "Public"
+      ],
+      "type": "PDF",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "questions",
+        "appointment",
+        "handout"
+      ]
+    },
+    {
+      "id": "mha-131",
+      "title": "Type 2 Diabetes Foundations",
+      "summary": "An educational overview of glucose regulation, monitoring, complications, and treatment categories.",
+      "topic": "Type 2 diabetes",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "diabetes",
+        "blood sugar",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "mha-141",
+      "title": "Obesity as a Chronic Disease",
+      "summary": "A stigma-aware explanation of obesity biology, environment, complications, and evidence-based care.",
+      "topic": "Obesity",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "weight",
+        "appetite",
+        "chronic disease"
+      ]
+    },
+    {
+      "id": "mha-151",
+      "title": "GLP-1/GIP Medications: Educational Overview",
+      "summary": "A referenced overview of approved uses, expected benefits, common adverse effects, limitations, and safety boundaries.",
+      "topic": "GLP-1/GIP",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Evidence Brief",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "medications",
+        "obesity",
+        "diabetes",
+        "safety"
+      ]
+    },
+    {
+      "id": "mha-161",
+      "title": "Understanding MASLD",
+      "summary": "How metabolic dysfunction and liver fat relate to inflammation, fibrosis risk, and clinical evaluation.",
+      "topic": "MASLD",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "fatty liver",
+        "liver",
+        "fibrosis"
+      ]
+    },
+    {
+      "id": "mha-171",
+      "title": "Blood Pressure and Metabolic Health",
+      "summary": "Why blood pressure matters, how measurements are interpreted, and the role of longitudinal follow-up.",
+      "topic": "Hypertension",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "blood pressure",
+        "heart",
+        "risk"
+      ]
+    },
+    {
+      "id": "mha-181",
+      "title": "Cholesterol and Cardiovascular Risk",
+      "summary": "A practical explanation of lipids, risk assessment, and why a single laboratory value is not the whole story.",
+      "topic": "Cardiovascular health",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "cholesterol",
+        "lipids",
+        "heart"
+      ]
+    },
+    {
+      "id": "mha-191",
+      "title": "Sleep Apnea and Metabolic Health",
+      "summary": "How disrupted breathing during sleep can relate to daytime symptoms, blood pressure, and metabolic risk.",
+      "topic": "Sleep apnea",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Article",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "sleep",
+        "OSA",
+        "breathing"
+      ]
+    },
+    {
+      "id": "mha-201",
+      "title": "Nutrition Patterns: Evidence Before Hype",
+      "summary": "A framework for evaluating eating patterns without rigid rules, miracle claims, or one-size-fits-all advice.",
+      "topic": "Nutrition",
+      "audiences": [
+        "Public",
+        "Clinician",
+        "Student"
+      ],
+      "type": "Evidence Brief",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "food",
+        "diet",
+        "patterns"
+      ]
+    },
+    {
+      "id": "mha-211",
+      "title": "Movement, Strength, and Metabolic Health",
+      "summary": "An introduction to aerobic activity, resistance training, mobility, and sustainable daily movement.",
+      "topic": "Exercise",
+      "audiences": [
+        "Public",
+        "Student"
+      ],
+      "type": "Video",
+      "status": "coming-soon",
+      "href": null,
+      "published": null,
+      "reviewed": null,
+      "keywords": [
+        "activity",
+        "strength",
+        "muscle"
+      ]
+    }
+  ]
+}

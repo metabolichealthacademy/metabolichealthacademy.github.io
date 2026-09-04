@@ -6,9 +6,14 @@ Public, static educational website hosted on GitHub Pages at [themetabolichealth
 
 - Semantic HTML pages
 - Shared responsive design in `style.css`
-- Small progressive-enhancement script in `site.js` for mobile navigation
+- Progressive-enhancement scripts in `site.js` and `library.js`
+- Learning Library catalog in `data/library.json`
 - No user accounts, backend, database, or client-side secrets
 - GitHub Pages hosting with the custom domain preserved in `CNAME`
+
+## Learning Library
+
+`resources.html` loads the versioned JSON catalog and provides client-side search and filtering by topic, audience, type, and availability. Only records marked `available` may link to files or pages; planned records must use `coming-soon` with a null `href`.
 
 ## Content and trust
 
@@ -21,7 +26,7 @@ python -m http.server 8000
 node scripts/validate-site.mjs
 ```
 
-Open `http://localhost:8000`.
+Open `http://localhost:8000/resources.html`. The library must be served over HTTP because it fetches JSON.
 
 ## Safety
 
