@@ -2,8 +2,8 @@ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
-const pages = ["index.html","about.html","conditions.html","blog.html","resources.html","contact.html","privacy.html","terms.html","disclaimer.html","ai-disclaimer.html","editorial-policy.html","evidence-policy.html","corrections-policy.html","ai-policy.html","sponsorship-policy.html","404.html"];
-const expectedNav = ["index.html","conditions.html","resources.html","blog.html","about.html"];
+const pages = ["index.html","start-here.html","about.html","conditions.html","blog.html","resources.html","contact.html","privacy.html","terms.html","disclaimer.html","ai-disclaimer.html","editorial-policy.html","evidence-policy.html","corrections-policy.html","ai-policy.html","sponsorship-policy.html","404.html"];
+const expectedNav = ["index.html","start-here.html","conditions.html","resources.html","blog.html","about.html"];
 const trustLinks = ["editorial-policy.html","evidence-policy.html","corrections-policy.html","ai-policy.html","sponsorship-policy.html"];
 const errors = [];
 for (const page of pages) {
